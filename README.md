@@ -7,7 +7,7 @@
 > you through every step automatically on first launch.
 
 **[⬇ Download Battery Health Monitor — Free on Google Play](https://play.google.com/store/apps/details?id=com.ghost.drain.battery.health.monitor)**
-*Free. No subscription. No paywall. Works on all Xiaomi, Redmi, POCO, and HyperOS devices.*
+_Free. No subscription. No paywall. Works on all Xiaomi, Redmi, POCO, and HyperOS devices._
 
 ---
 
@@ -30,19 +30,29 @@ one-time and takes under 2 minutes.
 
 ## HyperOS Background App Kill Fix — Step by Step
 
-### Step 1: Disable Battery Saver for Battery Health Monitor
-Settings → Apps → Manage Apps → Battery Health Monitor
-→ Battery Saver → No restrictions
+### Step 1: Disable Battery Optimization
+
+Settings → Battery (or Battery & Performance)
+→ App battery saver / Battery optimization
+→ Find Battery Health Monitor → Set to "No restrictions"
+
+Note: On some HyperOS versions the path is:
+Settings → Apps → Permissions → Background Autostart → enable Battery Health Monitor
+Xiaomi moves menu names between HyperOS versions — if you can't find it,
+search "battery" or "autostart" inside Settings search bar.
 
 ### Step 2: Enable Autostart
+
 Security App → Permissions → Autostart
 → Toggle ON for Battery Health Monitor
 
 ### Step 3: Lock the app in Recent Apps
+
 Open Battery Health Monitor → Recent Apps screen → long press the app card
 → tap the lock icon. This prevents HyperOS memory manager from ejecting it.
 
 ### Step 4: Disable MIUI Optimization (MIUI 12 and below only)
+
 Settings → Additional Settings → Developer Options
 → Disable MIUI Optimization
 
@@ -56,12 +66,12 @@ device model automatically on first launch. You don't need to find them manually
 If your Redmi or POCO phone loses more than **3% per hour** with the screen off,
 something is preventing deep sleep. Common causes on HyperOS devices:
 
-| Cause | How to diagnose | Fix |
-|---|---|---|
-| App preventing deep sleep wakelock | Settings → Battery → Battery usage | Restrict or uninstall the offending app |
-| GPS polling by navigation app | Battery usage → GPS column | Revoke background location |
-| Push notification service loop | MIUI Security → Autostart list | Disable autostart for unused apps |
-| HyperOS system process restart loop | Battery Health Monitor ghost drain banner | Guided fix within the app |
+| Cause                               | How to diagnose                           | Fix                                     |
+| ----------------------------------- | ----------------------------------------- | --------------------------------------- |
+| App preventing deep sleep wakelock  | Settings → Battery → Battery usage        | Restrict or uninstall the offending app |
+| GPS polling by navigation app       | Battery usage → GPS column                | Revoke background location              |
+| Push notification service loop      | MIUI Security → Autostart list            | Disable autostart for unused apps       |
+| HyperOS system process restart loop | Battery Health Monitor ghost drain banner | Guided fix within the app               |
 
 **Battery Health Monitor detects ghost drain automatically.** If your phone
 loses over 3%/hr with the screen off, an amber banner appears with a direct
@@ -137,11 +147,11 @@ AppGallery version using HMS (no Google services) is in development.
 
 **[⬇ Download Battery Health Monitor on Google Play — Free](https://play.google.com/store/apps/details?id=com.ghost.drain.battery.health.monitor)**
 
-*Also available on: Samsung Galaxy Store · Xiaomi GetApps · OPPO App Market · Vivo App Store*
+_Also available on: Samsung Galaxy Store · Xiaomi GetApps · OPPO App Market · Vivo App Store_
 
 ---
 
-*Keywords: xiaomi battery drain fix, hyperos background kill, miui battery
+_Keywords: xiaomi battery drain fix, hyperos background kill, miui battery
 optimization, redmi battery alarm not working, poco battery health app free,
 xiaomi ghost drain, accubattery alternative xiaomi, miui task killer fix,
-hyperos alarm fix, battery health monitor xiaomi*
+hyperos alarm fix, battery health monitor xiaomi_
